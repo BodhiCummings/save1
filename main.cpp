@@ -5,14 +5,13 @@
   Student Last Name: Cummings
 */
 #include <iostream>
-using namespace std;
 
 int main() {
-  string fullname;
-    cout << "Hello CS-216!" << endl;
-    cout << "Enter your name: ";
-    getline(cin, fullname);
-    cout << "Welcome " << fullname << endl;
+    std::string fullname;
+    std::cout << "Hello CS-216!" << std::endl;
+    std::cout << "Enter your name: ";
+    getline(std::cin, fullname);
+    std::cout << "Welcome " << fullname << std::endl;
 }
 
 /*
